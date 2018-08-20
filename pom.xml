@@ -19,6 +19,7 @@
         <org.springframework.cloud.version>2.0.1.RELEASE</org.springframework.cloud.version>
         <spring-data-rest-core.version>3.0.9.RELEASE</spring-data-rest-core.version>
         <springfox-swagger.version>2.9.2</springfox-swagger.version>
+        <lombok.version>1.18.2</lombok.version>
     </properties>
 
     <dependencies>
@@ -85,7 +86,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.2</version>
+            <version>${lombok.version}</version>
         </dependency>
     </dependencies>
 
