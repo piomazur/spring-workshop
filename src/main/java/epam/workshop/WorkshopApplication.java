@@ -7,6 +7,7 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 
 @SpringBootApplication
 @EnableMongoRepositories(basePackages = "epam.workshop.repository")
+//@Import({springfox.documentation.spring.data.rest.configuration.SpringDataRestConfiguration.class})
 public class WorkshopApplication {
 
     public static void main(String[] args) {
