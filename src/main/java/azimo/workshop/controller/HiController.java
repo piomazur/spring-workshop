@@ -1,4 +1,4 @@
-package epam.workshop.controller;
+package azimo.workshop.controller;
 
 import io.micrometer.core.instrument.Counter;
 import io.micrometer.core.instrument.MeterRegistry;
