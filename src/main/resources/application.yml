@@ -1,0 +1,21 @@
+spring:
+  sleuth:
+    sampler:
+      probability: 1
+  application:
+    name: structured-logging
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,env,loggers,metrics,prometheus,mappings
+  endpoint:
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+  metrics:
+    export:
+      prometheus:
+        enabled: true
